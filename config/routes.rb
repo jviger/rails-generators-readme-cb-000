@@ -2,13 +2,7 @@ Rails.application.routes.draw do
   resources :accounts
   get 'accounts/new'
 
-  get 'accounts/create'
-
   get 'accounts/edit'
-
-  get 'accounts/update'
-
-  get 'accounts/destroy'
 
   get 'accounts/index'
 
